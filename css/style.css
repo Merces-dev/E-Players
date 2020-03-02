@@ -7,7 +7,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:;
     text-decoration: none;
 }
 body{
@@ -95,4 +94,14 @@ header img{
 }
 .right_padding{
     padding-right: 10px;
+}
+.banner{
+    width: 100%;
+    height: 450px;
+    background-image: url("../img/meta_mundo.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
