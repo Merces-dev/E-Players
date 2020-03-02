@@ -125,3 +125,12 @@ header img{
 .ligas img{
     height: 143px;
 }
+.sobre{
+    background-image: url("../img/Teams/T6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 200px;
+    clip-path: polygon(0 11%, 100% 0, 100% 87%, 0% 100%);
+}
