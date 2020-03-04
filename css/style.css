@@ -26,6 +26,7 @@ body{
 }
 a{
     color: white;
+
 }
 .container{
     width: 80%;
@@ -164,4 +165,73 @@ header img{
 }
 .texto_sobre h2{
     margin-bottom: 2em;
+}
+.content{
+    display: flex;
+    margin-top:180px;
+    justify-content: space-between;
+
+}
+.content section{
+    width: 70%;
+}
+.content article div{ 
+    box-shadow: 0px 3px 10px black;
+}
+.card{
+    width: 100%;
+    box-shadow: 0px 3px 10px black;
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(30,28,33,1) 30%, rgba(30,28,33,1) 100%);
+    margin-bottom: 2em;
+}
+.card img{
+    width: 220px;
+    height:  220px;
+    object-fit: cover;
+}
+.card div{
+    padding: 2em;
+}
+.card :hover{
+    background-color: var(--blue);
+    color: var(--background);
+    transition-duration: 0.8s;/*Tempo de duração da transição*/
+    transition-timing-function: ease-in-out ;
+}
+
+.content h3{
+    text-transform: uppercase;
+    padding: 2em;
+    font-size: 1.8em;
+}
+article{
+    width: 25%; 
+}
+.resultados_box{
+    box-shadow: 0px 3px 10px black;
+    padding: 3em ;
+}
+.resultado{
+    text-align: center;
+    margin-top: 1.5em;
+}
+.resultado div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.resultado img{
+    width: 30px;
+}
+.resultado p{
+    font-size: 2em;
+    margin: 0.3em 0em;
+}
+hr{
+    width: 100%;
+    border-color: var(--background);
+    
 }
