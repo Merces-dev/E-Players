@@ -308,3 +308,69 @@ footer p{
     text-align: center;
     color: #6f6f6f;
 }
+/* Início pagina cadastro */
+.banner_cad{
+    width: 100%;
+    height: 320px;
+    background-image: url(../img/img_corte_cad.png);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner_cad h1{
+    font-size: 3.4em;
+    text-transform: uppercase;
+
+}
+/* Fim Banner */
+/* Inicio Form */
+.form_cadastro{
+    width: 100%;
+    max-width: 400px; 
+    margin: 10em auto;
+    box-shadow: 5px 5px 10px var(--background), -2px -2px 19px var(--purple);
+    border-radius: 5px;
+    padding: 1.5;
+}
+.campo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.0em;
+}
+.campo{
+    text-transform: uppercase;
+}
+.campo input[type="text"],
+.campo input[type="password"],
+.campo input[type= "email"],
+.campo input[type= "date"],
+select{
+    width: 60%;
+    background-color: var(--background);
+    border: none;
+    outline: none;
+    border-bottom: solid 1px var(--purple);
+    color: white;
+}
+.campo input:focus{
+    background-color: #2f2c33;
+}
+.campo fieldset{
+    border: none;
+}
+.campo fieldset label{
+    margin:2em 1em 2em 0;      ;
+}
+.termos{
+    justify-content: unset;
+    align-items: center;
+}
+.termos input{
+    margin-right: 1em;
+}
+ .form_cadastro .campo:nth-child(10) button{ /* centralizar botão*/
+    margin: auto;
+}
